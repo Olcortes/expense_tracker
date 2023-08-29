@@ -17,7 +17,7 @@ class Expenses extends StatefulWidget {
 class _ExpensesState extends State<Expenses> {
   final List<Expense> _registeredExpenses = [
     Expense(
-      title: 'Flutter Course',
+      title: 'Curso de FLutter',
       amount: 19.99,
       date: DateTime.now(),
       category: Category.work,
@@ -81,7 +81,7 @@ class _ExpensesState extends State<Expenses> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter ExpenseTracker'),
+        title: const Text('ExpenseTracker'),
         actions: [
           IconButton(
             onPressed: _openAddExpenseOverlay,
